@@ -1,0 +1,103 @@
+{% load staticfiles %}
+<div class="au">
+  <center><h1>About Us</h1></center>
+</div>
+
+<!-- howdy/templates/about.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h2 {
+  font-size: 35px;
+}
+
+table, td, th {
+    border: 1px solid transparent;
+}
+
+table {
+    width: 100%;
+    border-spacing: 25px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: auto;
+  margin: auto;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.container {
+  padding: 0;
+}
+
+.container:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+  <table>
+<td>
+<div class="card">
+  <img src="https://img1.etsystatic.com/147/0/7497812/il_340x270.1205849773_h8p0.jpg"  style="width: 340px; height: 300px" >
+  <div class="container">
+    <h2>Angelina Perez</h2>
+    <p class="title"> Hobbies: Drawing, Reading, Biking </p>
+    <p>Girls Who Code Student @ Twitter Bay Area</p>
+    <div style="margin: 24px 0;">
+
+      <a href="https://twitter.com/AngelP_019"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/angelina-perez-449874142/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/angelina.perez.71465"><i class="fa fa-facebook"></i></a>
+   </div>
+   <p><button>Contact</button></p>
+  </div>
+</div>
+</td>
+
+<td>
+<div class="card">
+  <img src="https://s-media-cache-ak0.pinimg.com/236x/45/93/0d/45930dbd7ecb97b035206cea5d7e9cdb--bird-art-sticker.jpg" style="width: 300px; height: 300px">
+  <div class="container">
+    <h2>Melody Cao</h2>
+    <p class="title"> Hobbies: Doodling, Dancing, Sleeping</p>
+    <p>Girls Who Code Student @ Twitter Bay Area</p>
+    <div style="margin: 24px 0;">
+
+      <a href="https://twitter.com/melody47_mint?lang=en"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/melody-cao-9aa877142/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/melody.cao.5"><i class="fa fa-facebook"></i></a>
+   </div>
+   <p><button>Contact</button></p>
+  </div>
+</div>
+</td>
+</table>
+<button><a href="/">Go back home</a></button>
+</body>
+</html>

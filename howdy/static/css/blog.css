@@ -1,0 +1,89 @@
+
+button {
+    background-color: #ff6600; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button {
+    opacity: 1.0;
+    background-color: white;
+    color: black;
+    border: 2px solid #ff6600;
+    border-radius: 12px;
+
+}
+
+button:hover {
+    background-color: #ff6600;
+    color: white;
+}
+.nav + a {
+  color: black;
+}
+a{
+  color: black;
+}
+p{
+
+}
+#content img {
+float: left;
+}
+
+header{
+  background-color: #ff6600; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 64px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: none;
+  border: 2px solid #ff6600;
+  opacity: 0.8;
+
+}
+#sanfran {background:url("http://www.mckinsey.com/~/media/McKinsey/Locations/North%20America/West%20Coast/San%20Francisco/WCO_SanFrancisco_hero_GettyImages-476881195_1536x768_crop-left_2.ashx?mw=1536&car=546:205&cpx=Left&cpy=Center");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+}
+#oak {background:url("https://paradigmmalibu.com/wp-content/uploads/2014/11/oakland.jpg");
+  height: 500px;
+  width:100%;
+  background-size: cover;
+}
+img {
+  border-width: 10px 5px 10px 5px;
+}
+#ber{
+  background:url("https://media-cdn.tripadvisor.com/media/photo-s/06/97/15/27/berkeley.jpg");
+    height: 500px;
+    width:100%;
+    background-size: cover;
+}
+#ala{
+  background:url("http://cdn.localon.com/upload-2776394041055836798.PNG");
+  height: 500px;
+  width:100%;
+  background-size: cover;
+}
+#fre{
+  background:url("https://media.glassdoor.com/l/85/0f/14/83/city-working-on-plan-for-new-downtown.jpg");
+  height: 500px;
+  width:100%;
+  background-size: cover;
+}
